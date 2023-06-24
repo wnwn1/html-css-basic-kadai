@@ -46,6 +46,11 @@ img {
     width: 70%;
 }
 
+h2::before {
+    content: "⚫︎";
+    color: rgb(239, 111, 139);
+}
+
 h2 {
     font-size: 25px;
     border-bottom: 3px dotted rgb(236, 122, 122);
@@ -53,6 +58,7 @@ h2 {
 
 span {
     color: rgb(97, 206, 249);
+    font-weight: bold;
 }
 
 footer {
